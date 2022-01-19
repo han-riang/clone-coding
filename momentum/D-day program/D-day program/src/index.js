@@ -14,11 +14,11 @@ function dayCalculaor() {
 }
 toEveAlarm();
 function toEveAlarm() {
-  const toEveDay = dayCalculaor();
-  const date = new Date();
-  const nowHour = date.getHours();
-  const nowMin = date.getMinutes();
-  const nowSec = date.getSeconds();
+    const toEveDay = dayCalculaor();
+    const date = new Date();
+    const nowHour = date.getHours();
+    const nowMin = date.getMinutes();
+    const nowSec = date.getSeconds();
   const toEveHour = 23 - nowHour;
   const toEveMin = 59 - nowMin;
   const toEveSec = 59 - nowSec;
