@@ -28,7 +28,6 @@ const colors = [
     const firstColor = colors[randomNum];
     const secondColor = colors[randomNumber];
     body.style.background = `linear-gradient(to right,${firstColor},${secondColor})`;
-    console.log(firstColor, secondColor);
   }
   
   btn.addEventListener("click", handleToColor);
